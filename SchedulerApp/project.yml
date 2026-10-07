@@ -1,0 +1,31 @@
+name: Scheduler
+options:
+  bundleIdPrefix: com.zhaire
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+targets:
+  Scheduler:
+    type: application
+    platform: iOS
+    sources:
+      - Scheduler
+    info:
+      path: Scheduler/Info.plist
+      properties:
+        CFBundleDisplayName: iScheduler
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        NSPhotoLibraryUsageDescription: Choose a photo for your wallpaper.
+        NSCameraUsageDescription: Take a photo for your wallpaper.
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zhaire.scheduler
+        TARGETED_DEVICE_FAMILY: "1"
