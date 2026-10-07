@@ -27,5 +27,5 @@ targets:
           - UIInterfaceOrientationPortrait
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.zhaire.scheduler
+        PRODUCT_BUNDLE_IDENTIFIER: com.zhaire.ischeduler2026x
         TARGETED_DEVICE_FAMILY: "1"
